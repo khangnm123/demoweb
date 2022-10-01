@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-violet);
+  background-color: #fff5ec;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2e266f;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background: linear-gradient(to right, #fff5ec 0%, #fff5ec 70%, #35cd8c 30%);
+  height: 100vh;
+  width: 1920px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header--a a {
+  margin: 0px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #2E266F;
+  left: -300px;
+  position: relative;
+}
+
+.h3 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 108px;
+  color: #35CD8C;
+}
+
+svg {
+  border: 10px;
+  width: 52px;
+  height: 52px;
+  padding: 12px;
+  background: white;
+  border-radius: 50%;
+}
+
+.header--green {
+  height: 15px;
+  width: 15px;
+  left: 1710px;
+  top: 14px;
+  border-radius: 50%;
+  background-color: #31A24C;
+  position: absolute;
+}
+
+.header--a--content h2 {
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 300px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  top: 332px;
+  width: 506px;
+  height: 179px;
+  opacity: 5%;
+}
+.header--a--content p {
+  position: absolute;
+  width: 37%;
+  /* height: 110px; */
+  line-height: 90px;
+  font-size: 72px;
+  font-weight: 700;
+  top: 330px;
+  font-family: system-ui;
+  color: #2E266F;
+}
+.header--a--content button {
+  width: 600px;
+  height: 80px;
+  top: 526px;
+  position: absolute;
+  background: #FFFFFF;
+}
+.header--a--content .button--a {
+  text-align: left;
+  position: relative;
+  left: 0px;
+  color: #2E266F;
+  font-size: 16px;
+  opacity: 64%;
+  width: 600px;
+  height: 80px;
+  padding: 23px;
+  top: 240px;
+  background: #FFFFFF;
+}
+
+.headerr-b--button button {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 538px;
+  left: 460px;
+  border-radius: 60px 0px 0px 0px;
+  background: #35CD8C;
+}
+.headerr-b--button a {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.bg--right .img--one {
+  position: absolute;
+  left: 1047px;
+  top: -41px;
+}
+.bg--right .img--two {
+  position: absolute;
+  top: 120px;
+  width: 878px;
+  height: 870px;
+  left: 790px;
+}
+.bg--right svg {
+  height: 553px;
+  width: 473px;
+  left: 713px;
+  top: -110px;
+  position: relative;
+  background-color: #FFF5EC;
+  border-radius: 0px;
+}
+
+.button--three button {
+  width: 280px;
+  height: 69px;
+  background: #35CD8C;
+  border-radius: 0px 100px 100px 0px;
+  position: relative;
+  left: -60px;
+}
+.button--three a {
+  color: #FFFFFF;
+  font-size: 30px;
+}
+
+.header--icon {
+  margin: 10px 132px;
+}
+
+.user {
+  position: relative;
+  left: 61px;
+  top: -37px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ti-angle-down {
+  position: absolute;
+  left: 1780px;
+  top: 37px;
+  font-weight: 900;
+  color: white;
+}
+
+.location__icon {
+  position: absolute;
+  font-size: 30px;
+  top: 940px;
+  left: 40px;
+  color: white;
+}
+
+.arrow__content {
+  position: absolute;
+  display: flex;
+  left: 1487px;
+  justify-content: space-around;
+  margin: 0px 0px;
+  color: white;
+  font-size: 40px;
+}
+
+.arrow--left {
+  margin: 0px 50px;
+}
+
+.arrow--left--img {
+  position: absolute;
+  top: 4px;
+  left: 31px;
+}
+
+.arrow--right--img {
+  position: absolute;
+  top: 5px;
+  left: 155px;
+}/*# sourceMappingURL=header.css.map */

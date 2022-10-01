@@ -1,0 +1,226 @@
+.lastest{
+    width: 100%;
+    height: 210vh;
+    font-family: 'Poppins';
+}
+.lastest__h2{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    h2{
+        font-size: 34px;
+        line-height: 60px;
+        transition: linear 0.5s;
+    }
+    p{
+        color: #707070;
+        line-height: 30px;
+        font-weight: 300;
+    }
+}
+.lastest__big{
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 350px;
+    flex-wrap: wrap;
+}
+.lastest__bg__one img{
+    width: 370px;
+    height: 246px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+.lastest__bg__two img{
+    width: 370px;
+    height: 246px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.lastest__bg__three img{
+    width: 370px;
+    height: 246px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.lastest__bg__content{
+    background-color: #fff;
+    width: 370px;
+    height: 200px;
+    position: relative;
+    top: -7px;
+    padding: 15px;
+    left: 0px;
+}
+
+.lastest__bg__content{
+    h2{
+        font-size: 20px;
+        display: flex;
+    }
+    p{
+        font-size: 14px;
+        text-align: left;
+    }
+}
+.user__bg{
+    width: 370px;
+    height: 46px;
+    background: #f1f1f1;
+    top: -10px;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+    transition: linear 0.5s;
+}
+.user__circle{
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 20%;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+    i{
+        font-size: 14px;
+
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.comment{
+    float: right;
+    position: relative;
+    left: -10px;
+    a{
+        display: flex;
+    font-size: 14px;
+    position: relative;
+    top: -18px;
+    }
+    i{
+        position: relative;
+        top: 5px;
+        left: -10px;
+    }
+}
+.content__p__two{
+    display:flex;
+        #pink{
+            color: #e80566;
+            font-weight: bold;
+            margin: 0px 10px;
+        }
+        p{
+            color: black;
+        }
+}
+.lastest__number{
+    display: flex;
+    width: 50%;
+    margin-top: 60px;
+    ul{
+        display: flex;
+    margin-left: 130px;
+    width: 50%;
+    justify-content: space-around;
+    }
+    a{
+        font-weight: bold;
+        color: black;
+    }
+    i{
+        padding: 5px 2px;
+        font-size: 21px;
+    }
+}
+.lastest__bg__one{
+    margin-bottom: 25px;
+}
+.lastest__bg__three{
+    margin-bottom: 25px;
+}
+.lastest__bg__two{
+    margin-bottom: 25px;
+}
+.lastest__bg__content:hover h2{
+    color: #e80566;
+}
+.lastest__big .lastest__bg__content:hover{
+    box-shadow: 0px 17px 26px -16px  rgb(0 0 0 / 41%);
+}
+.lastest__bg__one:hover .user__bg{
+    box-shadow: 0px 17px 26px -16px  rgb(0 0 0 / 41%);
+}
+.lastest__bg__two:hover .user__bg{
+    box-shadow: 0px 17px 26px -16px  rgb(0 0 0 / 41%);
+}
+.lastest__bg__three:hover .user__bg{
+    box-shadow: 0px 17px 26px -16px  rgb(0 0 0 / 41%);
+}
+.lastest .lastest__bg__one:hover{
+    animation: shake-horizontal;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+}
+.lastest .lastest__bg__two:hover{
+    animation: shake-horizontal;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+}
+.lastest .lastest__bg__three:hover{
+    animation: shake-horizontal;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-in-out;
+}
+.lastest__number li:hover{
+    background-color: #e80566;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 50%; 
+    transition: linear 0.5s;
+}
+.lastest__number li:hover a {
+ color: #f9f9f9;
+ font-weight: bold;
+ display: block;
+ transition: linear 0.5s;
+}
+
+  @keyframes shake-horizontal {
+    0%,
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+    }
+    10%,
+    30%,
+    50%,
+    70% {
+      -webkit-transform: translateX(-10px);
+              transform: translateX(-10px);
+    }
+    20%,
+    40%,
+    60% {
+      -webkit-transform: translateX(10px);
+              transform: translateX(10px);
+    }
+    80% {
+      -webkit-transform: translateX(8px);
+              transform: translateX(8px);
+    }
+    90% {
+      -webkit-transform: translateX(-8px);
+              transform: translateX(-8px);
+    }
+  }
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');

@@ -1,0 +1,113 @@
+.repeat{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.repeat__bg{
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    top: 0;
+    background-image:url('https://demo.w3layouts.com/demos_new/template_demo/22-03-2021/call-center-liberty-demo_Free/987049326/web/assets/images/bg1.jpg');
+}
+.repeat__bg__one{
+    background: linear-gradient(75deg, rgb(22 37 103 / 79%) 10%, rgb(230 2 100 / 68%));
+    width: 100%;
+    height: 600px;
+}
+.repeat__bg__content{
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    top: 108px;
+    color: #fff;
+    h2{
+        margin-bottom: 16px;
+        font-size: 38px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 28px;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+.repeat__bg__list{
+    position: relative;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    top: 200px;
+    left: 20%;
+    color: white;
+    font-family: 'Poppins';
+    h2{
+        font-size: 44px;
+        font-weight: normal;
+    }
+    p{
+        font-size: 15px;
+        text-align: center;
+    }
+    i{
+        font-size: 35px;
+        width: 50%;
+        position: relative;
+        left: 20px;
+        top: -22px;
+        z-index: 1;
+    }
+}
+.list__two {
+    i{
+            font-size: 35px;
+        width: 50%;
+        position: relative;
+        left: 46px;
+        top: -22px;
+        z-index: 1;
+    }
+
+}
+.list__three{
+    i{
+         font-size: 35px;
+        width: 50%;
+        position: relative;
+        left: 42px;
+        top: -22px;
+        z-index: 1;
+    }
+   
+}
+.list__four{
+    i{
+         font-size: 35px;
+        width: 50%;
+        position: relative;
+        left: 41px;
+        top: -22px;
+        z-index: 1; 
+    }
+  
+}
+@media only screen and (max-width:1440px){
+    .repeat__bg__list{
+        position: relative;
+        display: flex;
+        width: 73%;
+        justify-content: space-around;
+        top: 200px;
+        left: 15%;
+        color: white;
+        font-family: "Poppins"
+    }
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');

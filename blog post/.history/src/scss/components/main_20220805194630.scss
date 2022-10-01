@@ -1,0 +1,11 @@
+@import "../globals/variables.scss";
+
+.location {
+  &__text {
+    display: flex;
+  }
+
+  &__heading {
+    font-size: $fz-heading;
+  }
+}

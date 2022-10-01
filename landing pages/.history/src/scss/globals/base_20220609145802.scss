@@ -1,0 +1,17 @@
+@import "color";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-violet);
+  line-height: 1.5;
+  background-color: $color-bg;
+}
+
+.container {
+  padding: 0 60px;
+}

@@ -1,0 +1,38 @@
+@import "../globals/";
+
+.header {
+  padding-top: 20px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 72px;
+    font-weight: 700;
+    color: $color-primary;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+      padding: 10px 20px;
+    }
+  }
+
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    &__icon {
+      background-color: $color-white;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  }
+}

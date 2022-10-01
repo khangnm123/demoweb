@@ -1,0 +1,31 @@
+@import "color";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-violet);
+  line-height: 1.5;
+  background-color: $color-bg;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: $color-text;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}

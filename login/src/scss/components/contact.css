@@ -1,0 +1,90 @@
+.contact {
+  width: 100%;
+  height: 208px;
+  background-color: #fff;
+}
+
+.contact__big {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  top: 61px;
+}
+
+.contact__phone {
+  display: flex;
+  justify-content: space-around;
+  width: 24%;
+  align-items: center;
+  left: -110px;
+  position: relative;
+  margin: 0px -30px;
+}
+.contact__phone a {
+  display: flex;
+}
+.contact__phone i {
+  position: relative;
+  top: 11px;
+  font-size: 38px;
+  left: -20px;
+  color: #6a1d72;
+}
+.contact__phone p {
+  position: relative;
+  top: 18px;
+  left: -10px;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact__phone #or {
+  color: #707070;
+  position: relative;
+  top: 14px;
+  font-weight: normal;
+}
+.contact__phone button {
+  width: 157px;
+  height: 47px;
+  background: #e80566;
+  border-radius: 5px;
+  position: relative;
+  top: 12px;
+  border: 1px solid #e80566;
+  transition: linear 0.5s;
+}
+.contact__phone a {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.contact__phone .font {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  left: 38px;
+}
+
+.contact__h2 h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.contact__h2 p {
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 6px;
+  color: #707070;
+}
+
+button:hover {
+  background: none;
+}
+
+button:hover .font {
+  color: #e80566;
+  font-weight: bold;
+}/*# sourceMappingURL=contact.css.map */

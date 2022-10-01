@@ -1,0 +1,164 @@
+@import "../globals/";
+
+.header {
+  position: relative;
+  padding-top: 20px;
+  background: linear-gradient(
+    to right,
+    $color-bg 0%,
+    $color-bg 70%,
+    $color-primary 30%
+  );
+  height: 100vh;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 4;
+  }
+
+  &__logo {
+    font-size: 72px;
+    font-weight: 700;
+    color: $color-primary;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    color: $color-text;
+
+    &__item {
+      padding: 10px 20px;
+    }
+  }
+
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon {
+      background-color: $color-white;
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+    &__icon,
+    &__text {
+      margin-right: 10px;
+    }
+  }
+
+  &__heading {
+    font-size: 200px;
+    color: rgba($color-text, 0.05);
+    font-weight: 900;
+  }
+
+  &__title {
+    font-size: 72px;
+    font-weight: 700;
+    width: 45%;
+    color: $color-text;
+  }
+
+  &__search {
+    position: relative;
+    width: 40%;
+  }
+
+  &__input {
+    padding: 40px 40px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  &__btn {
+    position: absolute;
+    background-color: $color-primary;
+    color: $color-white;
+    width: 30%;
+    padding: 20px;
+    font-size: 30px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-top-left-radius: 70px;
+  }
+
+  &__images {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    top: 20%;
+    right: 30%;
+    pointer-events: none;
+  }
+
+  &__dots {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    &--above {
+      top: 0;
+    }
+
+    &--below {
+      top: 0;
+      transform: translateY(106%);
+    }
+  }
+
+  &__disk {
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+    z-index: 3;
+  }
+
+  &__salad {
+    position: absolute;
+    right: 0;
+    transform: translate(50%, -30%);
+    z-index: 2;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tag {
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+    font-size: 30px;
+    color: $color-white;
+    background-color: $color-primary;
+    display: inline-block;
+    padding: 17px 58px;
+    border-radius: 0px 50px 50px 0px;
+  }
+
+  &__location {
+    margin-left: 20px;
+  }
+
+  .control {
+    position: absolute;
+    right: 135px;
+    bottom: 20px;
+    cursor: pointer;
+
+    &--left {
+      margin-right: 20px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu__item {
+  padding: 10px 20px;
+}/*# sourceMappingURL=header_20220609151237.css.map */

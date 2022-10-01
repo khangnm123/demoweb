@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.lastest {
+  width: 100%;
+  height: 90vh;
+  background: #f9f9f9;
+  font-family: "Poppins";
+}
+
+.lastest__h2 {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+.lastest__h2 h2 {
+  font-size: 34px;
+  line-height: 60px;
+  transition: linear 0.5s;
+}
+.lastest__h2 p {
+  color: #707070;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.lastest__big {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 280px;
+}
+
+.lastest__bg__one img {
+  width: 370px;
+  height: 246px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.lastest__bg__two img {
+  width: 370px;
+  height: 246px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.lastest__bg__three img {
+  width: 370px;
+  height: 246px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.lastest__bg__content {
+  background-color: #fff;
+  width: 370px;
+  height: 200px;
+  position: relative;
+  top: -7px;
+  padding: 15px;
+  left: 0px;
+}
+
+.content__p__two {
+  display: flex;
+}
+.content__p__two p {
+  font-size: 13px;
+  text-align: left;
+  color: black;
+}
+.content__p__two #pink {
+  font-size: 13px;
+  margin: 0px 0px 0px 5px;
+  color: #e80566;
+}
+
+.lastest__bg__content h2 {
+  font-size: 20px;
+  display: flex;
+}
+.lastest__bg__content p {
+  font-size: 13px;
+  text-align: left;
+}
+
+.user__bg {
+  width: 370px;
+  height: 46px;
+  background: #f1f1f1;
+  top: -22px;
+  border-radius: 0 0 5px 5px;
+  position: relative;
+  transition: linear 0.5s;
+}
+
+.user__circle a {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 20%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.user__circle i {
+  font-size: 14px;
+}
+.user__circle p {
+  font-size: 14px;
+}
+
+.comment {
+  float: right;
+  position: relative;
+  left: -10px;
+}
+.comment a {
+  display: flex;
+  font-size: 14px;
+  position: relative;
+  top: -18px;
+}
+.comment i {
+  position: relative;
+  top: 5px;
+  left: -10px;
+}
+
+.lastest__bg__content:hover h2 {
+  color: #e80566;
+}
+
+.user__bg:hover {
+  box-shadow: 0px 17px 26px -16px rgba(0, 0, 0, 0.41);
+}
+
+.lastest__bg__content:hover {
+  box-shadow: 0px 17px 26px -16px rgba(0, 0, 0, 0.41);
+}/*# sourceMappingURL=lastest.css.map */

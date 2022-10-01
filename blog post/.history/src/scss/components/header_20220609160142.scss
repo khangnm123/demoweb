@@ -1,0 +1,124 @@
+@import "../globals/";
+
+.header {
+  position: relative;
+  padding-top: 20px;
+  background: linear-gradient(
+    to right,
+    $color-bg 0%,
+    $color-bg 70%,
+    $color-primary 30%
+  );
+  height: 100vh;
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 72px;
+    font-weight: 700;
+    color: $color-primary;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+      padding: 10px 20px;
+    }
+  }
+
+  .user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__icon {
+      background-color: $color-white;
+      padding: 10px;
+      border-radius: 50%;
+    }
+
+    &__icon,
+    &__text {
+      margin-right: 10px;
+    }
+  }
+
+  &__heading {
+    font-size: 200px;
+    color: rgba($color-text, 0.05);
+    font-weight: 900;
+  }
+
+  &__title {
+    font-size: 72px;
+    font-weight: 700;
+    width: 45%;
+    color: $color-text;
+  }
+
+  &__search {
+    position: relative;
+    width: 40%;
+  }
+
+  &__input {
+    padding: 40px 40px;
+    font-size: 18px;
+    width: 100%;
+  }
+
+  &__btn {
+    position: absolute;
+    background-color: $color-primary;
+    color: $color-white;
+    width: 30%;
+    padding: 20px;
+    font-size: 30px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-top-left-radius: 70px;
+  }
+
+  &__images {
+    position: absolute;
+    top: 50%;
+    right: 30%;
+  }
+
+  &__dots {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    &--above {
+      top: 0;
+    }
+
+    &--below {
+      top: 0;
+      transform: translateY(110%);
+    }
+  }
+
+  &__disk {
+    position: absolute;
+    right: 0;
+    transform: translateX(50%);
+    z-index: 3;
+  }
+
+  &__salad {
+    position: absolute;
+    right: 0;
+    transform: translate(50%, -30%);
+    z-index: 2;
+  }
+}

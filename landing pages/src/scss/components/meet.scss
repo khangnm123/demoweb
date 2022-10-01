@@ -1,0 +1,159 @@
+.meet{
+    width: 100%;
+    height: 831px;
+    background-color: #f9f9f9;
+}
+.meet__text{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    h2{
+        font-size: 35px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    p{
+        font-size: 1.25rem;
+        line-height: 1.6;
+        font-weight: 300;
+        color: #707070;
+        font-family: 'Poppins';
+    }
+}
+.meet__bg img{
+    width: 370px;
+    height: 370px;
+    position:relative;
+}
+.meet__bg{
+    display: flex;
+    gap: 35px;
+    margin: 160px 370px;
+}
+.meet__list{
+    width: 370px;
+    height: 105px;
+    background: #fff;
+    position: relative;
+    top: -7px;
+    text-align: center;
+    p{
+        position: relative;
+    top: 33px;
+    font-size: 13px;
+    color: #707070;
+    }
+    h2{
+        font-size: 1.25rem;
+        margin: 0px 0px;
+        position: relative;
+        top: 25px;
+    }
+}
+.meet__list__two{
+    width: 370px;
+    height: 105px;
+    background: #fff;
+    position: relative;
+    top: -7px;
+    text-align: center;
+    box-shadow: 0px 17px 26px -16px rgb(0 0 0 / 41%);
+
+
+    p{
+        position: relative;
+    top: 33px;
+    font-size: 13px;
+    color: #707070;
+    }
+    h2{
+        font-size: 1.25rem;
+        margin: 0px 0px;
+        position: relative;
+        top: 25px;
+        color: #e80566;
+        transition: linear 0.5s;
+    }
+}
+.meet__bg__content{
+
+    width: 370px;
+    height: 84px;
+    position: absolute;
+    background: linear-gradient(75deg, rgba(22, 37, 103, 0.7) 10%, rgba(230, 2, 100, 0.5));
+    bottom: 6px;
+    padding: 30px;
+    text-align: center;
+    a{
+        background: #fff;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    i{
+        position: relative;
+    top: 5px;
+   
+    font-size: 16px;
+    font-weight: bold;
+    }
+    ion-icon{
+        
+        position: relative;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+}
+.meet__bg__content__one{
+    width: 370px;
+    height: 84px;
+    position: absolute;
+    background:linear-gradient(75deg, rgba(22, 37, 103, 0.7) 10%, rgba(230, 2, 100, 0.5));;
+    bottom: -90px;
+    padding: 30px;
+    text-align: center;
+    transition: linear 0.5s;
+    a{
+        background: #fff;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0px 5px;
+    }
+    i{
+        position: relative;
+    top: 5px;
+   
+    font-size: 16px;
+    font-weight: bold;
+    }
+    ion-icon{
+        
+        position: relative;
+    top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    }
+}
+.meet__background{
+    position:relative;
+}
+.meet__bg__one{
+    position: relative;
+    overflow: hidden;
+
+}
+.meet__bg__one:hover .meet__bg__content__one{
+    bottom:8px;
+}
+.meet__background__one:hover h2{
+    color: #e80566;
+}
+.meet__background__one:hover .meet__list{
+    box-shadow: 0px 17px 26px -16px rgb(0 0 0 / 41%);
+
+}

@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #2e266f;
+}
+
+ul {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("https://demo.w3layouts.com/demos_new/template_demo/22-03-2021/call-center-liberty-demo_Free/987049326/web/assets/images/banner1.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+header .bigger {
+  background: linear-gradient(75deg, rgba(22, 37, 103, 0.84) 10%, rgba(230, 2, 100, 0.37));
+  position: absolute;
+  min-height: 100vh;
+  width: 100%;
+}
+header nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  padding: 15px;
+  transition: all 0.5s ease-in-out;
+}
+header nav.sticky {
+  background: #fff;
+  transition: all 0.5s ease-in-out;
+  z-index: 1000;
+}
+header ul {
+  display: flex;
+}
+header nav.sticky a {
+  color: #1a2c79;
+}
+header nav.sticky i {
+  color: #1a2c79;
+}
+header nav.sticky ion-icon {
+  color: #1a2c79;
+}
+header nav.sticky h1 {
+  color: #1a2c79;
+}
+header a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+  left: -85px;
+  position: relative;
+  font-size: 14px;
+  transition: linear 0.5s;
+}
+header h1 {
+  color: aliceblue;
+}
+header .search {
+  position: relative;
+  top: 7px;
+  left: -90px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+header .moon {
+  position: relative;
+  top: 2px;
+  left: -74px;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 43px;
+}
+.content i {
+  font-size: 31px;
+  color: white;
+  font-weight: 900;
+  transition: linear 0.5s;
+}
+.content h1 {
+  font-size: 25px;
+  transition: linear 0.5s;
+}
+
+.bigger__one {
+  top: 390px;
+  position: absolute;
+  left: 18%;
+}
+.bigger__one h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 600;
+  color: white;
+}
+.bigger__one p {
+  color: white;
+  margin-top: 30px;
+}
+.bigger__one button {
+  position: relative;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 5px;
+  width: 180px;
+  background: white;
+  transition: linear 0.3s;
+  border: 1px solid white;
+}
+.bigger__one button #one {
+  color: #1a2c79;
+  font-weight: 600;
+  left: 0;
+  margin: 0;
+}
+
+button:hover {
+  background: none;
+}
+
+.content:hover h1 {
+  color: #e80566;
+}
+
+.content:hover i {
+  color: #e80566;
+}
+
+nav.sticky a:hover {
+  color: #e80566;
+}
+
+button:hover #one {
+  color: #fff;
+}/*# sourceMappingURL=header.css.map */

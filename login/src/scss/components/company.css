@@ -1,0 +1,44 @@
+.company {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.end__text {
+  display: flex;
+}
+.end__text .layt {
+  text-decoration: none;
+  transition: linear 0.3s;
+  color: black;
+  font-weight: 300;
+  position: relative;
+  left: 7px;
+}
+
+.end__icon {
+  width: 10%;
+  justify-content: space-around;
+  display: flex;
+}
+.end__icon a {
+  margin: 0px 15px;
+  position: relative;
+}
+.end__icon ion-icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  transition: linear 0.5s;
+}
+
+.end__text:hover .layt {
+  color: #e80566;
+}
+
+.end__icon ion-icon:hover {
+  color: #e80566;
+}/*# sourceMappingURL=company.css.map */

@@ -1,0 +1,20 @@
+.header {
+  padding-top: 20px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-size: 72px;
+  font-weight: 700;
+}
+.header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .menu__item {
+  padding: 10px 20px;
+}/*# sourceMappingURL=header_20220609151540.css.map */
